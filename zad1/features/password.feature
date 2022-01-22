@@ -1,6 +1,6 @@
 Feature: password validator
 
-  Scenario Outline: check if password is valid
+  Scenario Outline: check validation
     Given Password validator
     When check password <password>
     Then result is <result>
